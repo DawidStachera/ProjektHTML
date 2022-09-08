@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root{
+*{
+    transition: color 100ms ease-in-out, 
+        background-color 100ms ease-in-out;
+}
+
+html{
     --padding: 10px;
     --padding2: 30px;
     --bg: rgb(116, 116, 116);
@@ -8,6 +13,17 @@
     --fg: aliceblue;
     --accent: orange;
     --accent-5: rgba(255, 166, 0, 0.5);
+}
+
+html.light{
+    --padding: 10px;
+    --padding2: 30px;
+    --bg: rgb(255, 255, 255);
+    --bg2: rgb(190, 180, 180);
+    --fg: aliceblue;
+    --accent: orange;
+    --accent-5: rgba(255, 166, 0, 0.5);
+
 }
 
 .panel{
