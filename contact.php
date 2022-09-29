@@ -11,6 +11,9 @@
     <body>
 
         <form id="form" method="get" action="">
+
+            <ul id="errors"></ul>
+
             <label for="email">Email</label>
             <input type="email" name="email" id="email" class="input">
 

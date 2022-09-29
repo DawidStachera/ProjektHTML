@@ -32,3 +32,7 @@
 .input:focus{
     outline: 2px solid var(--accent);
 }
+
+#form > #errors{
+    grid-column: 1 / 3;
+}
